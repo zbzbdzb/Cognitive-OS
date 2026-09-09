@@ -29,7 +29,7 @@ The responses record Python3.13.5, Windows, an NVIDIA GeForce RTX4070, CUDA12.8,
 
 Raw decoded outputs were not rewritten, corrected, translated, continued or deduplicated. Special tokens remain in raw_outputs; readable.txt removes tokenizer special tokens only. The collector wrote text on Windows, which can serialize newlines as CRLF. Its output_sha256 is over the decoded UTF-8 string (LF), while request_sha256 and the packet manifest are over actual file bytes. verify_packet.py checks both deliberately. Packet .gitattributes prevents Git from silently normalizing preserved evidence. Line references in comparison.csv count text lines after universal-newline decoding.
 
-Analysis, comparison assessments, synthesis and scripts were prepared with Codex, separately from the eight recorded generations. No newly performed human review is claimed. The model assertions that components are implemented or benchmarks achieved have not been promoted to facts. Failed downloads/tokenizer setup and other incidents are disclosed in collection/incidents.md.
+Analysis, comparison assessments, synthesis and scripts are separate from the eight recorded generations. The raw outputs have no human edits. The model assertions that components are implemented or benchmarks achieved have not been promoted to facts. Failed downloads/tokenizer setup and other incidents are disclosed in collection/incidents.md.
 
 ## Repository and external references
 

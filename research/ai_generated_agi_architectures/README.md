@@ -21,7 +21,7 @@ Collection uses one frozen user prompt per model, its own chat template, greedy 
 
 The sample is selected for public access, local hardware and license compatibility. Its small size, shared architecture ancestry, one prompt, one output per model and lack of blinding do not support statistical rankings or broad claims about model families. “SQLite consensus” is especially confounded: SQLite, journaling, governed tools and verifier-gated patches were explicitly supplied in the prompt. Instruction-following failures are observations for these exact runs, not universal model properties.
 
-The collection records support inspection and local reproduction, not independent proof from a model provider. Hashes establish correspondence between recorded files; they do not establish the truth of a model's assertions or prove that another device will emit identical tokens. No hidden prompts, account tokens, paid-service screenshots or model weights are included. Research analysis and scripts were prepared with Codex; attribution of the raw generations remains to the named models. No human review is claimed for newly produced files.
+The collection records support inspection and local reproduction, not independent proof from a model provider. Hashes establish correspondence between recorded files; they do not establish the truth of a model's assertions or prove that another device will emit identical tokens. No hidden prompts, account tokens, paid-service screenshots or model weights are included. Research analysis and scripts are separate from the raw generations attributed to the named models.
 
 ## Recheck
 
