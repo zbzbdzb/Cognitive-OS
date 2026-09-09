@@ -16,7 +16,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          ref: research/local-architecture-comparison
+          ref: 12d2bccb5c93686c3053838660b6605b8d7510af
 
       - name: Set up Python
         uses: actions/setup-python@v5
